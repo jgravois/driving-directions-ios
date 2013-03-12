@@ -1164,7 +1164,7 @@
 		78342C7C140D9CB400B0F354 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0460;
 			};
 			buildConfigurationList = 78342C7F140D9CB400B0F354 /* Build configuration list for PBXProject "Map" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1455,7 +1455,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS.sdk/usr/local/lib;
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -1482,7 +1482,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS.sdk/usr/local/include/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = $HOME/Library/SDKs/ArcGIS/iOS.sdk/usr/local/lib;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				OTHER_LDFLAGS = (
@@ -1502,7 +1502,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/**";
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1514,7 +1513,7 @@
 					"$ArcGIS_Common/**",
 				);
 				INFOPLIST_FILE = "Directions-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$ArcGIS_Common/**",
 					$BUILD_ROOT/$CONFIGURATION,
@@ -1537,7 +1536,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/**";
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1549,7 +1547,7 @@
 					"$ArcGIS_Common/**",
 				);
 				INFOPLIST_FILE = "Directions-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$ArcGIS_Common/**",
 					$BUILD_ROOT/$CONFIGURATION,
